@@ -1,5 +1,4 @@
-export const API_URL = 'http://192.168.31.54:8000/api';
-
+export const API_URL = 'https://sales-backend-r248.onrender.com/api';
 export const formatCurrency = (amount) => {
   return `₹${Number(amount || 0).toLocaleString('en-IN')}`;
 };
